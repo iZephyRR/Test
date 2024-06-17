@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+body {
+	background-color: #81c408 !important;
+}
+
+.login-container {
+    margin: 0  auto;
+    margin-top : 150px;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.col-md-3 {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.col-md-5 {
+    text-align: left;
+}
+
+
+ 
+ input[type="text"],
+input[type="password"] {
+    display: block; /* Make the text boxes block-level elements */
+    margin: 0 auto; /* Center the text boxes horizontally */
+    width: 100%; /* Set the width of the text boxes */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure that padding and border are included in the element's total width and height */
+}
+input[type="submit"] {
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center the button horizontally */
+    width: 30%; /* Set the width of the button */
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}

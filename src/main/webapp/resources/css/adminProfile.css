@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+body {
+	padding-top: 30px;
+}
+
+.card-body {
+	background-color: #81c408 !important;
+}
+
+.card {
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+	background-color: rgb(0, 128, 64);
+	border-radius: 15px 15px 0 0;
+	color: #fff;
+}
+
+.profile-picture {
+	border-radius: 50%;
+}
+
+.profile-details p {
+	margin-bottom: 5px;
+}
+
+.container {
+	text-align: center;
+}
+
+.edit-btn {
+	background-color: black;
+	color: white !important;
+}

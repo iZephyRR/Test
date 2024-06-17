@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+.mb-3 {
+	position: relative;
+}
+
+.mb-3 .form-group-text {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}

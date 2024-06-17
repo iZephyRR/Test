@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+.card-body {
+	background-color: #81c408 !important;
+}
+
+.card-header {
+	background-color: rgb(0, 128, 64);
+	border-radius: 15px 15px 0 0;
+	color: #fff;
+}
+
+/* password toggle */
+.form-group {
+	position: relative;
+}
+
+.form-group .form-group-text {
+	position: absolute;
+	top: 70%;
+	right: 10px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.btn-success {
+	background-color: rgb(0, 128, 64);
+	color: white;
+	border-color: #28a745;
+}
